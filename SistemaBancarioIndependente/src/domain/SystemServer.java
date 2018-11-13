@@ -1,9 +1,11 @@
 package domain;
 
+import client.DomEquipment;
+
 public class SystemServer {
 
 	public static void main(String[] args) throws Exception {
-
+		
 		//Método que deixa o servidor aguardando e conexão do cliente.
 		ServerSocketTcp SST = new ServerSocketTcp();
 		SST.serverSocketWait();
